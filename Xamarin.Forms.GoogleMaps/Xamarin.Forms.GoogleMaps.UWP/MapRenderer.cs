@@ -1,13 +1,9 @@
 using System;
-using System.Collections.ObjectModel;
-using System.Collections.Specialized;
 using System.ComponentModel;
-using System.Linq;
 using System.Threading.Tasks;
 using Windows.Devices.Geolocation;
 using Windows.UI;
 using Windows.UI.Xaml.Controls.Maps;
-using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Shapes;
 using Xamarin.Forms.GoogleMaps.Extensions.UWP;
 using Xamarin.Forms.GoogleMaps.Internals;
@@ -412,8 +408,8 @@ namespace Xamarin.Forms.Maps.WinRT
             {
                 _userPositionCircle = new Ellipse
                 {
-                    Stroke = new SolidColorBrush(Colors.White),
-                    Fill = new SolidColorBrush(Colors.Blue),
+                    Stroke = new Windows.UI.Xaml.Media.SolidColorBrush(Colors.White),
+                    Fill = new Windows.UI.Xaml.Media.SolidColorBrush(Colors.Blue),
                     StrokeThickness = 2,
                     Height = 20,
                     Width = 20,

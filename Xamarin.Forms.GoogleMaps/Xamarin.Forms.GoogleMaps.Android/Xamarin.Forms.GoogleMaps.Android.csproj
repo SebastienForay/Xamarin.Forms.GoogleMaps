@@ -83,12 +83,12 @@
       <Version>118.0.2.2</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Forms">
-      <Version>5.0.0.2012</Version>
+      <Version>5.0.0.2545</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Xamarin.Forms.GoogleMaps\Xamarin.Forms.GoogleMaps.csproj">
-      <Project>{CA981CF6-C2AD-4609-B8AA-9E5EC72F2000}</Project>
+      <Project>{A6451E04-A1B6-4A0F-BC7D-D278FBEF2AEF}</Project>
       <Name>Xamarin.Forms.GoogleMaps</Name>
     </ProjectReference>
   </ItemGroup>

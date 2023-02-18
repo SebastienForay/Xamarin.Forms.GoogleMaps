@@ -14,7 +14,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2545" />
     <None Include="logo.png" Pack="true" PackagePath="\" />    
   </ItemGroup>
 </Project>

@@ -78,12 +78,15 @@
     <Compile Include="Utils.cs" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.2.0.5" />
+    <PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.6.0.1" />
     <PackageReference Include="Xamarin.GooglePlayServices.Maps">
-      <Version>118.0.2.2</Version>
+      <Version>118.1.0.1</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Forms">
       <Version>5.0.0.2545</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.AndroidX.Core">
+      <Version>1.9.0.2</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
